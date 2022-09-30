@@ -1,0 +1,52 @@
+/* CSS HEX 
+--nadeshiko-pink: #f5b0cbff;
+--raisin-black: #161925ff;
+--prussian-blue: #23395bff;
+--shadow-blue: #7d8ca3ff;
+--ivory: #fbfff1ff;*/
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0 0 20px 0;
+    background-image: linear-gradient(to left, #f5b0cbff,#fbfff1ff);  
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #fbfff1ff;
+}
+
+main{
+    max-width: 960px;
+    position: center;
+}
+
+section{
+    border-radius: 10px;
+    border: 100px;
+}
+
+.float-left{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+div{
+    display: inline-block;
+}
+
+footer{
+    margin: 0 0 20px 0;
+    background-image: linear-gradient(to right, #f5b0cbff,#fbfff1ff);  
+    padding: 10px;
+}
+
+h5{
+    text-align: center;
+    color: #fbfff1ff;
+}
