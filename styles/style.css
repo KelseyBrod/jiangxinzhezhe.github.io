@@ -11,10 +11,10 @@ personalize this portfolio page using google fonts, different colors, different 
     box-sizing: border-box;
     margin: 0 auto;
 }
-@font-face {
+/* @font-face {
     font-family: paci;
     src: url(../font/Pacifico.ttf);
-  }
+  } */
 body{
     background-color: #dbdbdbff;
 }
