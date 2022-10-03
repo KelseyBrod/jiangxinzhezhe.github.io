@@ -13,18 +13,19 @@ personalize this portfolio page using google fonts, different colors, different 
 }
 @font-face {
     font-family: paci;
-    src: url(../font/Pacifico.ttf);
+    src: url(../font/Pacifico.ttf);  /* add font */
   }
+
 body{
     background-color: #dbdbdbff;
-}
+}/* change background color */
 
  header{
     display: flex;
     justify-content: center;
     width: 100%;
     align-items: center;
-    background-image: linear-gradient(to bottom, #b0b5b3ff,#dbdbdbff); 
+    background-image: linear-gradient(to bottom, #b0b5b3ff,#dbdbdbff); /* change color */
     padding: 20px;
 }
 footer {
@@ -32,7 +33,7 @@ footer {
     justify-content: center;
     width: 100%;
     align-items: center;
-    background-image: linear-gradient(to top, #b0b5b3ff,#dbdbdbff); 
+    background-image: linear-gradient(to top, #b0b5b3ff,#dbdbdbff); /* change color */
     padding: 20px;
 }
 
@@ -69,13 +70,13 @@ a:hover {
  }
 
 #nav-links li{
-    padding: 1em; /* what does em mean?*/
+    padding: 1em; /* what does em mean? the padding is as big as the font size*/
 }
 
 #projects-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* what does fr mean?*/
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; /* what does fr mean? a fractional unit. It divided the column into three parts here*/
+     grid-template-rows: 1fr 1fr; /*two rows */
     grid-column-gap: 30px;
     grid-row-gap: 80px; 
     margin: 20px 20px 80px 20px;
@@ -134,7 +135,7 @@ p{
 
 }
 
-@media only screen and (min-width: 601px) and (max-width: 850px){ /* what is going on here?*/
+@media only screen and (min-width: 601px) and (max-width: 850px){ /* what is going on here? When screen is bigger than 600px and smaller than 850px, the following changes will take place*/
     #projects-grid{
     grid-template-columns: 1fr 1fr;
     }
