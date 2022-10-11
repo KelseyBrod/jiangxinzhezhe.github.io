@@ -20,7 +20,7 @@ body{
     background-color: #dbdbdbff;
 }/* change background color */
 
- header{
+header{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -76,7 +76,7 @@ a:hover {
 #projects-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* what does fr mean? a fractional unit. It divided the column into three parts here*/
-     grid-template-rows: 1fr 1fr; /*two rows */
+    grid-template-rows: 1fr 1fr; /*two rows */
     grid-column-gap: 30px;
     grid-row-gap: 80px; 
     margin: 20px 20px 80px 20px;
