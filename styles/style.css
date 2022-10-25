@@ -90,6 +90,7 @@ a:hover {
     text-align: center;
     max-width: 100%;
     padding: 40px 20px;
+    margin-top: -80px;
 }
 p{
     padding: 5px 20px 5px 20px;
@@ -131,8 +132,7 @@ p{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    margin-top: 1rem;
-
+    margin-top: -3rem;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 850px){ /* what is going on here? When screen is bigger than 600px and smaller than 850px, the following changes will take place*/
