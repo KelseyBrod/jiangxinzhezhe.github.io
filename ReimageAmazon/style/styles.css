@@ -150,12 +150,14 @@ img{
     text-decoration: line-through;
 
 }
-#shipping{
+.shipping{
+    display: none;
     color: #BFBFBF;
     margin-top: 2px;
     margin-bottom: 20px;
     grid-row: 5;
 }
+
 #star{
     grid-row: 3;
 }
@@ -166,6 +168,21 @@ a{
 #phonebigpic{
     display: none;
 }
+#prime{
+        background-color: #E5AF68; 
+        border: none;
+        color: black; 
+        height: 20px;
+        border-radius: 25px;
+        text-align: center;
+        font-size: 17px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    float: right;
+
+}
+ 
 
 @media screen and (max-width: 600px) {
     .topnav .search-container {
@@ -189,6 +206,21 @@ a{
         margin-left: 40px;
         padding: 10px;
         font-size: 15px;
+    }
+    #prime{
+        float: left;
+        display: block;
+        text-align: left;
+        background-color: #E5AF68; 
+        border: none;
+        color: black; 
+        border-radius: 25px;
+        font-size: 15px;
+        padding-left: 17px;
+        width: 130px;
+        height: 35px;
+        margin-left: 40px;
+        margin-top: 10px;
     }
 
     .topnav input[type=text] {
@@ -248,9 +280,12 @@ a{
     #price{
         margin-left: 60px;
     }
-    #shipping{
+    
+    .shipping{
+        display: none;
         margin-left: 20px;
     }
+
     #phonebigpic{
         display: block;
     }
