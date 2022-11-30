@@ -151,7 +151,29 @@ img{
 
 }
 .shipping{
-    display: none;
+    visibility: hidden;
+    color: #BFBFBF;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    grid-row: 5;
+}
+
+#ship1{
+    visibility: hidden;
+    color: #BFBFBF;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    grid-row: 5;
+}
+#ship2{
+    visibility: hidden;
+    color: #BFBFBF;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    grid-row: 5;
+}
+#ship3{
+    visibility: hidden;
     color: #BFBFBF;
     margin-top: 2px;
     margin-bottom: 20px;
@@ -282,7 +304,20 @@ a{
     }
     
     .shipping{
-        display: none;
+        visibility: hidden;
+        margin-left: 20px;
+    }
+
+    #ship1{
+        visibility: hidden;
+        margin-left: 20px;
+    }
+    #ship2{
+        visibility: hidden;
+        margin-left: 20px;
+    }
+    #ship3{
+        visibility: hidden;
         margin-left: 20px;
     }
 
